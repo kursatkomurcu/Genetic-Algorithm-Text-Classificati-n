@@ -90,8 +90,9 @@ def fitness_function(individual, x):
 ```
 
 ![Rows: Population size Columns: Mutation rate](https://github.com/kursatkomurcu/Genetic-Algorithm-Text-Classification/blob/main/images/table.png)
+Table --> Rows: Population size Columns: Mutation rate
 
-##Evaluation and Comments
+## Evaluation and Comments
 As the mutation level increases, the value of the fitness function decreases. This is because when too many words change in the corresponding individual, the crossover operation becomes less significant. If the mutation rate is too low, the fitness function may remain at the same level when the words change very little. In the above table, experiments were conducted with our first dataset, the SMS Spam Collection Dataset, and it was observed that the highest fitness function was achieved at a mutation rate of 0.05.
 In the experiments, the highest fitness function value was reached when the population size was 100. When the population size is low, the diversity may be reduced, leading to a decrease in success rate. Additionally, increasing the iteration count, increasing the length of the lists within individuals, using better data preprocessing methods, or writing the fitness function using a machine learning algorithm and improving the accuracy of this machine learning algorithm with genetic algorithm can be done to increase the success rate.
 
