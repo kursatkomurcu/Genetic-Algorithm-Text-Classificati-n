@@ -46,7 +46,9 @@ print(word_pool_tokens) # word pool
 In this study, binary text classification is performed on five different datasets using a genetic algorithm, and hyperparameters are examined. No additional classification algorithm is used during the classification process. The method used is as follows:
 
 **1.** Random words are assigned to the generated individual.
+
 **2.** It is assumed that the first half of the individual holds the words for positive data, while the second half holds the words for negative data. For example, an individual with 100 genes is expected to contain words like "good, great, excellent" in the first half, and words like "terrible, bad, dislike" in the second half.
+
 **3.** At each step, the genetic algorithm's selection, reproduction, and mutation features are used to reach the target individual.
 
 ## Fitness Function
