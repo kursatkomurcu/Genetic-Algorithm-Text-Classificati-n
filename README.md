@@ -42,7 +42,7 @@ for i in word_pool:
 
 print(word_pool_tokens) # word pool
 ```
-##Text Classification with Genetic Algorithm
+## Text Classification with Genetic Algorithm
 In this study, binary text classification is performed on five different datasets using a genetic algorithm, and hyperparameters are examined. No additional classification algorithm is used during the classification process. The method used is as follows:
 
 **1.** Random words are assigned to the generated individual.
