@@ -49,7 +49,7 @@ In this study, binary text classification is performed on five different dataset
 **2.** It is assumed that the first half of the individual holds the words for positive data, while the second half holds the words for negative data. For example, an individual with 100 genes is expected to contain words like "good, great, excellent" in the first half, and words like "terrible, bad, dislike" in the second half.
 **3.** At each step, the genetic algorithm's selection, reproduction, and mutation features are used to reach the target individual.
 
-##Fitness Function
+## Fitness Function
 When creating the fitness function, the individual is first divided into two halves. Then, the sentences in the dataset are tokenized into words. If the separated words appear only in the first half of the individual, they are considered positive, and if they appear only in the second half, they are considered negative. The function then adds the count of positive and negative occurrences and returns the total count.
 
 ```python
